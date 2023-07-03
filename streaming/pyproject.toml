@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streaming"
+version = "0.1.0"
+description = "Example how to capture streaming data from command - Yagna"
+authors = ["Sieciech Czajka <sieciech.czajka@golem.network>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8"
+websockets = "^9.1"
+scapy = "^2.4"
+aiosseclient = "^0.0"
+requests = "^2.31"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,1 +1,1 @@
-python streaming.py --key 93006110157817252533 --subnet public --debug-ignore-payments
+poetry run python streaming.py --key 93006110157817252533 --subnet public --debug-ignore-payments
